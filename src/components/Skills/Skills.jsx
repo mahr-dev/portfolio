@@ -2,33 +2,33 @@ import styles from './Skills.module.css';
 
 const skillCategories = [
   {
-    category: 'Frontend',
+    category: 'Lenguajes',
     skills: [
-      { name: 'React', level: 90 },
-      { name: 'JavaScript', level: 85 },
-      { name: 'TypeScript', level: 80 },
-      { name: 'HTML/CSS', level: 95 },
-      { name: 'Next.js', level: 75 },
+      { name: 'Python', level: 92 },
+      { name: 'JavaScript', level: 88 },
+      { name: 'TypeScript', level: 85 },
+      { name: 'Java', level: 78 },
+      { name: 'PHP', level: 70 },
     ],
   },
   {
-    category: 'Backend',
+    category: 'Frameworks y frontend',
     skills: [
-      { name: 'Node.js', level: 85 },
-      { name: 'Express', level: 80 },
-      { name: 'Python', level: 70 },
-      { name: 'PostgreSQL', level: 75 },
-      { name: 'MongoDB', level: 80 },
+      { name: 'Django / DRF', level: 90 },
+      { name: 'FastAPI', level: 88 },
+      { name: 'React / Next.js', level: 86 },
+      { name: 'Angular / PrimeNG', level: 82 },
+      { name: 'HTML / CSS / Tailwind', level: 90 },
     ],
   },
   {
-    category: 'Herramientas',
+    category: 'Cloud, datos e infra',
     skills: [
-      { name: 'Git', level: 90 },
-      { name: 'Docker', level: 70 },
-      { name: 'AWS', level: 65 },
-      { name: 'Figma', level: 60 },
-      { name: 'CI/CD', level: 70 },
+      { name: 'Azure (OpenAI, AKS, Cosmos…)', level: 88 },
+      { name: 'AWS (EC2, Lambda, RDS…)', level: 85 },
+      { name: 'PostgreSQL / Redis', level: 88 },
+      { name: 'Docker / Kubernetes', level: 82 },
+      { name: 'Git / GitHub Actions', level: 88 },
     ],
   },
 ];
@@ -38,6 +38,11 @@ function Skills() {
     <section id="skills" className={styles.skills}>
       <div className={styles.container}>
         <h2 className={styles.sectionTitle}>Habilidades</h2>
+        <p className={styles.intro}>
+          También trabajo con Flask, Vue.js, MongoDB, SQLite, NetSuite, Nginx,
+          Digital Ocean, metodologías ágiles y principios SOLID. Idiomas: español
+          (nativo) e inglés (avanzado).
+        </p>
         <div className={styles.categories}>
           {skillCategories.map((cat) => (
             <div key={cat.category} className={styles.category}>

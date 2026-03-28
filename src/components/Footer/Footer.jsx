@@ -1,9 +1,18 @@
 import styles from './Footer.module.css';
 
 const socialLinks = [
-  { name: 'GitHub', url: 'https://github.com', icon: '⌨' },
-  { name: 'LinkedIn', url: 'https://linkedin.com', icon: '💼' },
-  { name: 'Twitter', url: 'https://twitter.com', icon: '🐦' },
+  {
+    name: 'GitHub',
+    url: 'https://github.com/mhernandezrdz96',
+  },
+  {
+    name: 'LinkedIn',
+    url: 'https://www.linkedin.com/',
+  },
+  {
+    name: 'Email',
+    url: 'mailto:mhernandezrdz96@gmail.com',
+  },
 ];
 
 function Footer() {
@@ -25,7 +34,8 @@ function Footer() {
           ))}
         </div>
         <p className={styles.copyright}>
-          &copy; {new Date().getFullYear()} Tu Nombre. Todos los derechos reservados.
+          &copy; {new Date().getFullYear()} Miguel Angel Hernandez Rodriguez.
+          Todos los derechos reservados.
         </p>
       </div>
     </footer>

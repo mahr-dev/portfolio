@@ -69,7 +69,14 @@
   font-size: 1.2rem;
   font-weight: 600;
   color: #ffffff;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.35rem;
+}
+
+.meta {
+  color: #64ffda;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-bottom: 0.75rem !important;
 }
 
 .cardContent p {

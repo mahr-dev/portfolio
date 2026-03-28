@@ -8,24 +8,30 @@ function About() {
         <div className={styles.content}>
           <div className={styles.text}>
             <p>
-              Soy un desarrollador web apasionado por crear soluciones digitales
-              que marquen la diferencia. Con experiencia en el desarrollo de
-              aplicaciones web completas, desde el frontend hasta el backend.
+              Me especializo en desarrollo full stack y en soluciones impulsadas
+              por inteligencia artificial: APIs de alto rendimiento, integración
+              con servicios cloud (Azure y AWS) y productos que conectan backend
+              robusto con interfaces claras.
             </p>
             <p>
-              Me encanta aprender nuevas tecnologías y enfrentar desafíos
-              técnicos. Siempre busco escribir código limpio, mantenible y
-              escalable que resuelva problemas reales.
+              He trabajado con equipos ágiles (SCRUM, Jira), integraciones ERP
+              (NetSuite), microservicios en Kubernetes y agentes basados en LLM
+              para automatización y análisis de información.
             </p>
             <p>
-              Cuando no estoy programando, me gusta contribuir a proyectos
-              open source, leer sobre nuevas tendencias tecnológicas y
-              compartir conocimiento con la comunidad.
+              <strong>Formación:</strong> Ingeniería en Tecnologías de la
+              Información, Universidad Politécnica de Victoria (2015–2018).
             </p>
           </div>
           <div className={styles.imageWrapper}>
-            <div className={styles.imagePlaceholder}>
-              <span>Tu Foto</span>
+            <div className={styles.imageFrame}>
+              <img
+                src={`${process.env.PUBLIC_URL}/profile.jpg`}
+                alt="Miguel Angel Hernandez Rodriguez"
+                className={styles.profileImage}
+                width={280}
+                height={280}
+              />
             </div>
           </div>
         </div>

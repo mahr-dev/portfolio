@@ -4,7 +4,7 @@ import styles from './Navbar.module.css';
 const navLinks = [
   { href: '#hero', label: 'Inicio' },
   { href: '#about', label: 'Sobre mí' },
-  { href: '#projects', label: 'Proyectos' },
+  { href: '#experience', label: 'Experiencia' },
   { href: '#skills', label: 'Habilidades' },
   { href: '#contact', label: 'Contacto' },
 ];
@@ -18,7 +18,7 @@ function Navbar() {
     <nav className={styles.navbar}>
       <div className={styles.container}>
         <a href="#hero" className={styles.logo}>
-          {'<Dev />'}
+          {'<MAHR />'}
         </a>
         <button
           className={`${styles.hamburger} ${menuOpen ? styles.active : ''}`}
