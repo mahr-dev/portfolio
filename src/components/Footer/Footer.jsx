@@ -3,11 +3,11 @@ import styles from './Footer.module.css';
 const socialLinks = [
   {
     name: 'GitHub',
-    url: 'https://github.com/mhernandezrdz96',
+    url: 'https://github.com/mahr-dev',
   },
   {
     name: 'LinkedIn',
-    url: 'https://www.linkedin.com/',
+    url: 'https://www.linkedin.com/in/miguel-hern%C3%A1ndez-645a3418a/',
   },
   {
     name: 'Email',
