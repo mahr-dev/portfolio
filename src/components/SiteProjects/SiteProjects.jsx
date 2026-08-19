@@ -56,6 +56,15 @@ const portfolioProjects = [
     tags: ['Next.js', 'Stripe (test)', 'TailwindCSS', 'ThreeJS', "MongoDB"],
     url: '',
     image: `${base}/projects/florerias-saas.png`,
+  },
+  {
+    title: 'Azure AZ-900 guide',
+    meta: 'Proyecto personal · de momento en local',
+    description:
+      'Guía de estudio para la certificación Azure AZ-900. Incluye resúmenes, ejercicios y recursos para prepararse para el examen.',
+    tags: ['Azure', 'Certification'],
+    url: 'https://azure-guides.vercel.app/',
+    image: `${base}/projects/az900.png`,
   }
 ];
 
