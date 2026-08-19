@@ -27,7 +27,7 @@ function About() {
             <div className={styles.imageFrame}>
               <img
                 src={`${process.env.PUBLIC_URL}/profile.jpg`}
-                alt="Miguel Angel Hernandez Rodriguez"
+                alt="MiguelHernandez"
                 className={styles.profileImage}
                 width={280}
                 height={280}

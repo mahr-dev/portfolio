@@ -34,7 +34,7 @@ function Footer() {
           ))}
         </div>
         <p className={styles.copyright}>
-          &copy; {new Date().getFullYear()} Miguel Angel Hernandez Rodriguez.
+          &copy; {new Date().getFullYear()} Miguel Hernandez.
           Todos los derechos reservados.
         </p>
       </div>
