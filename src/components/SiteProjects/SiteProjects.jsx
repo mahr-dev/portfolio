@@ -30,6 +30,15 @@ const portfolioProjects = [
     url: 'https://e-commerce-txvg.vercel.app/',
     image: `${base}/projects/e-commerce.jpg`,
   },
+  {
+    title: '2D PIXEL DESIGNER',
+    meta: 'Proyecto personal · desplegado en Vercel',
+    description:
+      'Editor de sprites y tiles para videojuegos 2D. Permite crear, editar y exportar imágenes pixeladas, con paleta de colores personalizable y herramientas de dibujo básicas. Pensado como recurso para desarrolladores de juegos indie.',
+    tags: ['React', 'Canvas', 'Pixel Art'],
+    url: 'https://2d-pixel-designer-front.vercel.app/',
+    image: `${base}/projects/pixel-designer.png`,
+  }
 ];
 
 function SiteProjects() {
