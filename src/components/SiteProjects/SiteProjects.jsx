@@ -64,7 +64,7 @@ const portfolioProjects = [
       'Guía de estudio para la certificación Azure AZ-900. Incluye resúmenes, ejercicios y recursos para prepararse para el examen.',
     tags: ['Azure', 'Certification'],
     url: 'https://azure-guides.vercel.app/',
-    image: `${base}/projects/az900.png`,
+    image: `${base}/projects/az-900.png`,
   }
 ];
 
