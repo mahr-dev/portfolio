@@ -5,7 +5,7 @@ function Hero() {
     <section id="hero" className={styles.hero}>
       <div className={styles.content}>
         <p className={styles.greeting}>Hola, mi nombre es</p>
-        <h1 className={styles.name}>Miguel Angel Hernandez Rodriguez</h1>
+        <h1 className={styles.name}>Miguel Hernandez</h1>
         <h2 className={styles.title}>Desarrollador Full Stack · Python &amp; IA</h2>
         <p className={styles.description}>
           Profesional altamente motivado con más de siete años de experiencia en
