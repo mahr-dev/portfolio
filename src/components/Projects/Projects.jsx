@@ -1,5 +1,5 @@
 import styles from './Projects.module.css';
-
+const base = process.env.PUBLIC_URL || '';
 const experienceData = [
   {
     title: 'Mobilik',
@@ -8,7 +8,7 @@ const experienceData = [
       'APIs de alto rendimiento y optimización de bases de datos. Soluciones de IA con Azure OpenAI, Document Intelligence y Azure AI Search (RediSearch). Diseño de agentes LLM y agentes con herramientas OpenAI; microservicios en AKS. Stack Azure: OpenAI, Web Apps, ACR, Container Apps/Jobs, Functions, Service Bus, Cosmos DB y Storage. Front con Angular y TypeScript para interacción con agentes.',
     tags: ['Python', 'Azure', 'AKS', 'Angular', 'LLM'],
     link: 'https://www.mobiik.com/',
-    image: `${base}/jobs/mobilik.png`
+    image: `${base}/jobs/mobiik.png`
   },
   {
     title: 'Yuhu.mx',
@@ -47,9 +47,21 @@ function Projects() {
         <div className={styles.grid}>
           {experienceData.map((item, index) => (
             <article key={index} className={styles.card}>
-              <div className={styles.cardImage}>
-                <span>{item.title.split(' ')[0]}</span>
-              </div>
+              <a
+                href={item.link}
+                className={styles.thumbLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Abrir sitio de ${item.title}`}
+              >
+                <img
+                  src={item.image}
+                  alt={`Vista previa de ${item.title}`}
+                  className={styles.thumb}
+                  loading="lazy"
+                />
+                <span className={styles.thumbOverlay}>Ver sitio en vivo</span>
+              </a>
               <div className={styles.cardContent}>
                 <h3>{item.title}</h3>
                 <p className={styles.meta}>{item.meta}</p>
