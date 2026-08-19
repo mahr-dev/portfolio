@@ -38,6 +38,24 @@ const portfolioProjects = [
     tags: ['React', 'Canvas', 'Pixel Art'],
     url: 'https://2d-pixel-designer-front.vercel.app/',
     image: `${base}/projects/pixel-designer.png`,
+  },
+  {
+    title: 'Editor de Juegos de Mesa',
+    meta: 'Proyecto personal · desplegado en Vercel',
+    description:
+      'Herramienta para crear y editar juegos de mesa. Incluye diseño de tableros, creación de piezas y gestión de reglas. Pensado como recurso para diseñadores de juegos y jugadores entusiastas.',
+    tags: ['React', 'Canvas', 'Game Design'],
+    url: 'https://board-game-editor-3o6q.vercel.app/',
+    image: `${base}/projects/board-editor.png`,
+  },
+  {
+    title: 'SAAS florerias',
+    meta: 'Proyecto personal · de momento en local',
+    description:
+      'Aplicación web para florerías, con catálogo de productos, carrito de compras y gestión de pedidos. Pensada como demo de un sistema SAAS para negocios locales.',
+    tags: ['Next.js', 'Stripe (test)', 'TailwindCSS', 'ThreeJS', "MongoDB"],
+    url: '',
+    image: `${base}/projects/florerias-saas.png`,
   }
 ];
 
