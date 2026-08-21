@@ -77,15 +77,15 @@ function Contact() {
           ¿Tienes un proyecto en mente? ¡Hablemos!
         </p>
         <div className={styles.direct}>
-          <a href="tel:+528342154699" className={styles.directLink}>
+          {/* <a href="tel:+528342154699" className={styles.directLink}>
             (+52) 834 215 46 99
-          </a>
-          <a
+          </a> */}
+          {/* <a
             href="mailto:mhernandezrdz96@gmail.com"
             className={styles.directLink}
           >
             mhernandezrdz96@gmail.com
-          </a>
+          </a> */}
         </div>
 
         {status === 'success' ? (
