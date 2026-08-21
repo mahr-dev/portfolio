@@ -4,6 +4,15 @@ const base = process.env.PUBLIC_URL || '';
 
 const portfolioProjects = [
   {
+    title: 'Agente Virtual GAMES',
+    meta: 'Proyecto personal · desplegado en Vercel',
+    description:
+      'Agente virtual para atención al cliente de una tienda de videojuegos. Permite responder preguntas frecuentes, guiar en la navegación del sitio y ofrecer recomendaciones de productos. Pensado como demo de integración de IA en e-commerce.',
+    tags: ['React', 'Chatbot', 'IA'],
+    url: 'https://agent-ox5z.vercel.app/',
+    image: `${base}/projects/game-agent.png`,
+  },
+  {
     title: 'Weather App',
     meta: 'Proyecto personal · desplegado en Vercel',
     description:
@@ -65,7 +74,8 @@ const portfolioProjects = [
     tags: ['Azure', 'Certification'],
     url: 'https://azure-guides.vercel.app/',
     image: `${base}/projects/az-900.png`,
-  }
+  },
+  
 ];
 
 function SiteProjects() {
