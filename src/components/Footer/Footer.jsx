@@ -9,10 +9,10 @@ const socialLinks = [
     name: 'LinkedIn',
     url: 'https://www.linkedin.com/in/miguel-hern%C3%A1ndez-645a3418a/',
   },
-  {
-    name: 'Email',
-    url: 'mailto:mhernandezrdz96@gmail.com',
-  },
+  // {
+  //   name: 'Email',
+  //   url: 'mailto:mhernandezrdz96@gmail.com',
+  // },
 ];
 
 function Footer() {
