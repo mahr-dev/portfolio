@@ -13,6 +13,24 @@ const portfolioProjects = [
     image: `${base}/projects/game-agent.png`,
   },
   {
+    title: 'ShopNow · eCommerce',
+    meta: 'Proyecto personal · desplegado en Vercel',
+    description:
+      'Tienda demo con catálogo, destacados, registro e inicio de sesión, y flujo de compra con checkout. Incluye mensajes de confianza (envío, pago, historial) y exploración por productos; pensada como vitrina de un e-commerce moderno.',
+    tags: ['Next.js', 'Auth', 'Stripe (test)'],
+    url: 'https://e-commerce-txvg.vercel.app/',
+    image: `${base}/projects/e-commerce.png`,
+  },
+  {
+    title: 'Editor de Juegos de Mesa',
+    meta: 'Proyecto personal · desplegado en Vercel',
+    description:
+      'Herramienta para crear y editar juegos de mesa. Incluye diseño de tableros, creación de piezas y gestión de reglas. Pensado como recurso para diseñadores de juegos y jugadores entusiastas.',
+    tags: ['React', 'Canvas', 'Game Design'],
+    url: 'https://board-game-editor-3o6q.vercel.app/',
+    image: `${base}/projects/board-editor.png`,
+  },
+  {
     title: 'Weather App',
     meta: 'Proyecto personal · desplegado en Vercel',
     description:
@@ -30,15 +48,7 @@ const portfolioProjects = [
     url: 'https://cv-generator-zshf.vercel.app/',
     image: `${base}/projects/cv-generator.jpg`,
   },
-  {
-    title: 'ShopNow · eCommerce',
-    meta: 'Proyecto personal · desplegado en Vercel',
-    description:
-      'Tienda demo con catálogo, destacados, registro e inicio de sesión, y flujo de compra con checkout. Incluye mensajes de confianza (envío, pago, historial) y exploración por productos; pensada como vitrina de un e-commerce moderno.',
-    tags: ['Next.js', 'Auth', 'Stripe (test)'],
-    url: 'https://e-commerce-txvg.vercel.app/',
-    image: `${base}/projects/e-commerce.jpg`,
-  },
+
   {
     title: '2D PIXEL DESIGNER',
     meta: 'Proyecto personal · desplegado en Vercel',
@@ -48,15 +58,7 @@ const portfolioProjects = [
     url: 'https://2d-pixel-designer-front.vercel.app/',
     image: `${base}/projects/pixel-designer.png`,
   },
-  {
-    title: 'Editor de Juegos de Mesa',
-    meta: 'Proyecto personal · desplegado en Vercel',
-    description:
-      'Herramienta para crear y editar juegos de mesa. Incluye diseño de tableros, creación de piezas y gestión de reglas. Pensado como recurso para diseñadores de juegos y jugadores entusiastas.',
-    tags: ['React', 'Canvas', 'Game Design'],
-    url: 'https://board-game-editor-3o6q.vercel.app/',
-    image: `${base}/projects/board-editor.png`,
-  },
+  
   {
     title: 'SAAS florerias',
     meta: 'Proyecto personal · de momento en local',
